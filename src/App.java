@@ -26,5 +26,12 @@ public class App {
         double medelvärde2 = (Array2[0]+Array2[1]+Array2[2]+Array2[3]+Array2[4])/Array2.length;
         System.out.println("Medelvärded av array2 är "+medelvärde2);
 
+        int[] SummaArray = new int[5];
+        SummaArray[0] = Array1[0] + Array2[0];
+        SummaArray[01] = Array1[01] + Array2[01];
+        SummaArray[02] = Array1[02] + Array2[02];
+        SummaArray[03] = Array1[03] + Array2[03];
+        SummaArray[04] = Array1[04] + Array2[04];
+        
     }
 }
