@@ -32,6 +32,26 @@ public class App {
         SummaArray[02] = Array1[02] + Array2[02];
         SummaArray[03] = Array1[03] + Array2[03];
         SummaArray[04] = Array1[04] + Array2[04];
-        
+
+        int[] Addition = new int[4];
+
+        Scanner tb = new Scanner(System.in);
+        System.out.print("Första talet: ");
+        int tal1 = tb.nextInt();
+        System.out.print("Andra talet: ");
+        int tal2 = tb.nextInt();
+        System.out.print("Tredje talet: ");
+        int tal3 = tb.nextInt();
+        System.out.print("Fjärde talet: ");
+        int tal4 = tb.nextInt();
+
+        Addition[0] = tal1;
+        Addition[01] = tal2;
+        Addition[02] = tal3;
+        Addition[03] = tal4;
+
+        System.out.println(Addition[0]+Addition[01]+Addition[02]+Addition[03]);
+
+        tb.close();
     }
 }
